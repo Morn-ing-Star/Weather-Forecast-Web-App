@@ -104,15 +104,27 @@ body{
     padding: 20px 15px;
   }
 
+  .search {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column; /* Center vertically */
+  }
+
   .search input {
     padding: 8px 20px;
     height: 50px;
     font-size: 16px;
+    margin-bottom: 15px; /* Add some space below the input */
   }
 
   .search button {
     width: 50px;
     height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center; /* Center content inside the button */
   }
 
   .weather h1 {
@@ -139,5 +151,3 @@ body{
     font-size: 24px;
   }
 }
-
-
