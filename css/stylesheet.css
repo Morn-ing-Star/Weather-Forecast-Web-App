@@ -97,4 +97,47 @@ body{
     display: none;
 }
 
+@media (max-width: 768px) {
+  .card {
+    width: 95%;
+    margin: 50px auto;
+    padding: 20px 15px;
+  }
+
+  .search input {
+    padding: 8px 20px;
+    height: 50px;
+    font-size: 16px;
+  }
+
+  .search button {
+    width: 50px;
+    height: 50px;
+  }
+
+  .weather h1 {
+    font-size: 60px;
+  }
+
+  .weather h2 {
+    font-size: 35px;
+  }
+
+  .details {
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0 10px;
+    margin-top: 30px;
+  }
+
+  .col {
+    width: 100%;
+    margin-bottom: 10px;
+  }
+
+  .humidity, .wind {
+    font-size: 24px;
+  }
+}
+
 
